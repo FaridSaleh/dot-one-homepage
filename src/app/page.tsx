@@ -1,8 +1,14 @@
+import { Header, AboutDotOne } from './components'
+
 export default function Home() {
   return (
     <div>
-      <header>{/* <Button>Click me</Button> */}</header>
-      <main>{/* <Button>Click me</Button> */}</main>
+      <header>
+        <Header />
+      </header>
+      <main>
+        <AboutDotOne />
+      </main>
       <footer>{/* <Button>Click me</Button> */}</footer>
     </div>
   )

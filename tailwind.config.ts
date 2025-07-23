@@ -14,6 +14,16 @@ const config: Config = {
       secondary: '#383A3D',
       tertiary: '#ccc',
     },
+    fontWeight: {
+      thin: 100,
+      light: 300,
+      regular: 400,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+      black: 900,
+      extrablack: 950,
+    },
     fontSize: {
       // h1: [
       //   '32px',
