@@ -1,4 +1,4 @@
-import { Header, AboutDotOne, CompaniesCategory } from './components'
+import { Header, AboutDotOne, CompaniesCategory, Blog } from './components'
 
 export default function Home() {
   return (
@@ -6,9 +6,10 @@ export default function Home() {
       <header>
         <Header />
       </header>
-      <main className='min-h-[2000px]'>
+      <main className='overflow-hidden mb-[60px]'>
         <AboutDotOne />
         <CompaniesCategory />
+        <Blog />
       </main>
       <footer>{/* <Button>Click me</Button> */}</footer>
     </div>

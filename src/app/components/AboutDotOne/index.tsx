@@ -26,13 +26,13 @@ const AboutDotOne = () => {
     <div
       ref={containerRef}
       onMouseEnter={() => setHasReachedComponent(true)}
-      className={`transition-all duration-2000 mt-[43px] mb-[86px] ${hasReachedComponent ? 'opacity-100' : 'opacity-0'}`}
+      className={`transition-all ease-in duration-2000 mt-[43px] mb-[86px] ${hasReachedComponent ? 'opacity-100' : 'opacity-0'}`}
     >
       <div className='mx-auto max-w-[1224px]'>
         <div className='flex gap-[96px] items-start overflow-hidden'>
           <div
             className={`shrink-0 transition-all duration-2000
-        ${hasReachedComponent ? 'translate-x-0' : 'translate-x-20'}`}
+        ${hasReachedComponent ? 'translate-x-0' : 'translate-x-10/12'}`}
           >
             <p className='font-regular text-[34px]'>گروه</p>
             <p className='font-regular text-[34px]'>ارزش‌آفرین ‌وان</p>
@@ -51,7 +51,7 @@ const AboutDotOne = () => {
         </div>
         <div
           className={`relative bg-[#f5f5f5] h-[140px] flex items-center justify-center rounded-[24px] mt-[59px] transition-all duration-2000
-        ${hasReachedComponent ? 'translate-y-0' : 'translate-y-20'}`}
+        ${hasReachedComponent ? 'translate-y-0' : 'translate-y-40'}`}
         >
           <Pattern1Logo className='absolute bottom-0 left-0 w-full h-[102px]' />
           <p className='font-regular text-[16px] text-center'>
