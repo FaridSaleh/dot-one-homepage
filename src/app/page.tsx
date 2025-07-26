@@ -1,4 +1,4 @@
-import { Header, AboutDotOne, CompaniesCategory, Blog } from './components'
+import { Header, AboutDotOne, CompaniesCategory, Blog, CompaniesIntroduction } from './components'
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
         <AboutDotOne />
         <CompaniesCategory />
         <Blog />
+        <CompaniesIntroduction />
       </main>
       <footer>{/* <Button>Click me</Button> */}</footer>
     </div>
