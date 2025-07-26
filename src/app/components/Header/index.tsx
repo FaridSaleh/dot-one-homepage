@@ -15,7 +15,7 @@ const Header = () => {
     <div
       className={`
         bg-[#000]
-        transition-all duration-2000
+        transition-all duration-1000
         ${hasReachedComponent ? 'opacity-100 translate-y-0' : 'opacity-0 pointer-events-none translate-y-20'}
       `}
     >

@@ -36,11 +36,11 @@ const Blog = () => {
     <div
       ref={containerRef}
       onMouseEnter={() => setHasReachedComponent(true)}
-      className={`relative transition-all ease-in duration-2000 mb-[80px] ${hasReachedComponent ? 'opacity-100' : 'opacity-0'}`}
+      className={`relative transition-all ease-in duration-1000 mb-[80px] ${hasReachedComponent ? 'opacity-100' : 'opacity-0'}`}
     >
       <div className='mx-auto max-w-[1224px]'>
         <div
-          className={`mb-10 transition-all duration-2000 ${hasReachedComponent ? 'translate-x-0' : 'translate-x-1/2'}`}
+          className={`mb-10 transition-all duration-1000 ${hasReachedComponent ? 'translate-x-0' : 'translate-x-1/2'}`}
         >
           <div className='mb-2.5'>
             <OneGroupLogo className='w-[42px] h-[5.64px] -mb-1' />
@@ -55,7 +55,7 @@ const Blog = () => {
         <div className='relative grid grid-cols-6 gap-6'>
           {/* First Blog */}
           <div
-            className={`h-[260px] relative col-span-3 rounded-[24px] bg-[#141414] p-6 transition-all duration-2000
+            className={`h-[260px] relative col-span-3 rounded-[24px] bg-[#141414] p-6 transition-all duration-1000
             ${hasReachedComponent ? 'translate-x-0' : 'translate-x-1/2'}`}
           >
             <div className='flex items-center gap-2.5 mb-6'>
@@ -90,7 +90,7 @@ const Blog = () => {
 
           {/* Second Blog */}
           <div
-            className={`h-[260px] relative col-span-3 rounded-[24px] bg-[#f5f5f5] p-6 transition-all duration-2000
+            className={`h-[260px] relative col-span-3 rounded-[24px] bg-[#f5f5f5] p-6 transition-all duration-1000
             ${hasReachedComponent ? 'translate-x-0' : '-translate-x-1/2'}`}
           >
             <div className='flex items-center gap-2.5 mb-6'>
@@ -131,7 +131,7 @@ const Blog = () => {
 
           {/* Third Blog */}
           <div
-            className={`h-[260px] relative col-span-2 rounded-[24px] bg-[#f5f5f5] p-6 transition-all duration-2000
+            className={`h-[260px] relative col-span-2 rounded-[24px] bg-[#f5f5f5] p-6 transition-all duration-1000
             ${hasReachedComponent ? 'translate-x-0' : 'translate-x-1/2'}`}
           >
             <div className='flex items-center justify-between mb-4'>
@@ -164,7 +164,7 @@ const Blog = () => {
 
           {/* Fourth Blog */}
           <div
-            className={`h-[260px] relative col-span-2 rounded-[24px] bg-[#f5f5f5] p-6 transition-all duration-2000
+            className={`h-[260px] relative col-span-2 rounded-[24px] bg-[#f5f5f5] p-6 transition-all duration-1000
             ${hasReachedComponent ? 'translate-y-0' : 'translate-y-40'}`}
           >
             <div className='flex items-center justify-between mb-4'>
@@ -197,7 +197,7 @@ const Blog = () => {
 
           {/* Fifth Blog */}
           <div
-            className={`h-[260px] relative col-span-2 rounded-[24px] bg-[#f5f5f5] transition-all duration-2000
+            className={`h-[260px] relative col-span-2 rounded-[24px] bg-[#f5f5f5] transition-all duration-1000
             ${hasReachedComponent ? 'translate-x-0' : '-translate-x-1/2'}`}
           >
             <div className='flex items-center justify-between mt-[48px] mr-[47px] ml-[24px]'>

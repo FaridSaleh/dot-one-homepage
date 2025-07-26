@@ -27,12 +27,12 @@ const CompaniesCategory = () => {
     <div
       ref={containerRef}
       onMouseEnter={() => setHasReachedComponent(true)}
-      className={`relative transition-all ease-in duration-2000 mb-[100px] ${hasReachedComponent ? 'opacity-100' : 'opacity-0'}`}
+      className={`relative transition-all ease-in duration-1000 mb-[100px] ${hasReachedComponent ? 'opacity-100' : 'opacity-0'}`}
     >
       <Pattern2Logo className='absolute top-0 left-0 h-[350px] w-[497px]' />
       <div className='mx-auto max-w-[1224px]'>
         <div
-          className={`mb-10 transition-all duration-2000 ${hasReachedComponent ? 'translate-x-0' : 'translate-x-1/2'}`}
+          className={`mb-10 transition-all duration-1000 ${hasReachedComponent ? 'translate-x-0' : 'translate-x-1/2'}`}
         >
           <div className='mb-2.5'>
             <OneGroupLogo className='w-[42px] h-[5.64px] -mb-1' />
@@ -45,7 +45,7 @@ const CompaniesCategory = () => {
           <p className='font-regular text-[28px]'>جمله کوتاه یا یک تایتل</p>
         </div>
         <div
-          className={`grid grid-cols-5 gap-6 relative z-10 transition-all duration-2000
+          className={`grid grid-cols-5 gap-6 relative z-10 transition-all duration-1000
             ${hasReachedComponent ? 'translate-y-0' : 'translate-y-40'}`}
         >
           <Company name='ترابری' />
